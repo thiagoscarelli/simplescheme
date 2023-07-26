@@ -3,3 +3,17 @@ d
 d Author: Thiago Scarelli
 d
 f scheme-base.scheme
+f scheme-diverging_2.scheme
+f scheme-diverging_3.scheme
+f scheme-diverging_4.scheme
+f scheme-diverging_5.scheme
+f scheme-diverging_6.scheme
+f scheme-diverging_7.scheme
+f scheme-diverging_8.scheme
+f scheme-tol_diverging_sunset_5.scheme
+f scheme-tol_diverging_sunset_7.scheme
+f scheme-tol_diverging_sunset_8.scheme
+f scheme-tol_diverging_sunset_9.scheme
+f scheme-tol_diverging_sunset_11.scheme
+f scheme-tol_qualitative_bright_7.scheme
+f scheme-tol_qualitative_vibrant_7.scheme
