@@ -1,6 +1,5 @@
 *! version 1.0.0 25jul2023
 * Documentation available at: help scheme entries
-* source for color scheme: https://personal.sron.nl/~pault/data/colourschemes.pdf
 
 #include base
 label "diverging 8"
