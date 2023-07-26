@@ -1,0 +1,16 @@
+*! version 1.0.0 25jul2023
+* Documentation available at: help scheme entries
+* source for color scheme: https://personal.sron.nl/~pault/data/colourschemes.pdf
+
+#include base
+label "diverging 5"
+
+* Colors
+********
+color               p                       "  0  51 102"
+
+color               p1                      " 33 102 172" 
+color               p2                      "146 197 222" 
+color               p3                      "222 222 222" 
+color               p4                      "244 165 130" 
+color               p5                      "178  24  43" 

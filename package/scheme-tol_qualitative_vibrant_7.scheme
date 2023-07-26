@@ -1,0 +1,18 @@
+*! version 1.0.0 25jul2023
+* Documentation available at: help scheme entries
+* source for color scheme: https://personal.sron.nl/~pault/data/colourschemes.pdf
+
+#include base
+label "tol qualitative vibrant 7"
+
+* Colors
+********
+color               p                       "  0 119 187" // blue
+
+color               p1                      "  0 119 187" // blue
+color               p2                      " 51 187 238" // cyan
+color               p3                      "  0 153 136" //teal
+color               p4                      "238, 19  51" // orange
+color               p5                      "204  51  17" // red
+color               p6                      "170  51 119" // magenta
+color               p7                      "187 187 187" // grey

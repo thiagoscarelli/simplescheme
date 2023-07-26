@@ -1,0 +1,22 @@
+*! version 1.0.0 25jul2023
+* Documentation available at: help scheme entries
+* source for color scheme: https://personal.sron.nl/~pault/data/colourschemes.pdf
+
+#include base
+label "tol diverging sunset 11"
+
+* Colors
+********
+color               p                       " 54  75 154"
+
+color               p1                      "165   0  38" 
+color               p2                      "221  61  45" 
+color               p3                      "246 126  75" 
+color               p4                      "253 179 102" 
+color               p5                      "254 218 139" 
+color               p6                      "234 236 204" 
+color               p7                      "194 228 239" 
+color               p8                      "152 202 225" 
+color               p9                      "110 166 205" 
+color               p10                     " 74 123 183" 
+color               p11                     " 54  75 154"
