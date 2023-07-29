@@ -1,0 +1,8 @@
+
+#include simple
+
+label "simple square"
+
+* size
+graphsize x 2.75
+graphsize y 2.75
