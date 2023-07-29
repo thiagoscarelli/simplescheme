@@ -1,7 +1,7 @@
 *! version 1.0.0 25jul2023
 * Documentation available at: help scheme entries
 
-#include base
+#include simple
 label "diverging 8"
 
 * Colors
