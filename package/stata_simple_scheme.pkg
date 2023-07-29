@@ -3,6 +3,10 @@ d
 d Author: Thiago Scarelli
 d
 f scheme-simple.scheme
+f scheme-simplecoef.scheme
+f scheme-simplesq.scheme
+f scheme-simplestacked.scheme
+f scheme-simplever.scheme
 f scheme-diverging_2.scheme
 f scheme-diverging_3.scheme
 f scheme-diverging_4.scheme
