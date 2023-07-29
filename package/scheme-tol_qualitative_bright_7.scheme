@@ -2,7 +2,7 @@
 * Documentation available at: help scheme entries
 * source for color scheme: https://personal.sron.nl/~pault/data/colourschemes.pdf
 
-#include base
+#include simple
 label "tol qualitative bright 7"
 
 * Colors
