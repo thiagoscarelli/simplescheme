@@ -1,0 +1,197 @@
+*! version 1.0.0 25jul2023
+* Documentation available at: help scheme entries
+
+#include s2color
+label "base"
+
+* Figure size
+*************
+graphsize           x                       5.5
+graphsize           y                       2.8
+
+* Colors (vibrand scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
+*****************************************************************************
+color               p                       "  0 119 187" // blue
+
+color               p1                      "  0 119 187" // blue
+color               p2                      "238, 19  51" // orange
+color               p3                      "  0 153 136" // teal
+color               p4                      "204  51  17" // red
+color               p5                      " 51 187 238" // cyan
+color               p6                      "170  51 119" // magenta
+color               p7                      "187 187 187" // grey
+
+color               histogram               "  0 119 187" // blue
+
+* Background
+************
+color               background              white
+color               box                     white
+color               textbox                 white
+color               mat_label_box           white
+color               plotregion              white
+
+* Margins
+*********
+margin              graph                   medium // (default: medium)
+margin              twoway                  medium // (default: medsmall)
+margin              bargraph                medsmall // (default: bargraph)
+margin              hbargraph               medsmall // (default: bargraph)
+margin              combinegraph            medsmall // (default: medsmall)
+
+yesno               adj_xmargins            yes // (default: no)
+yesno               adj_ymargins            yes // (default: no)
+
+* Box around plotregion
+***********************
+linewidth           plotregion              medthick // (default: thin)
+color               plotregion_line         black // (default: white)
+
+* Axis
+******
+linewidth           axisline                medthick // (default: thin)
+linestyle           axis_withgrid           axisline // (default: thin)
+
+gsize               axis_title              medsmall // (default: medsmall)
+gsize               axis_title_gap          medsmall // space inside the axis text (default: minuscule)
+
+yesno               extend_axes_full_low    yes // extend axis lines to plot region (default: yes) or to smallest tick mark (no)
+yesno               extend_axes_full_high   yes // extend axis lines to plot region (default: yes) or to largest tick mark (no)
+
+axisstyle           bar_group               horizontal_default // (default: horizontal_notick)
+axisstyle           bar_super               horizontal_nolinetick // (default: horizontal_nolinetick)
+axisstyle           bar_var                 horizontal_notick // (default: horizontal_notick)
+
+* Ticks
+*******
+tickposition        axis_tick               outside // (default: outside)
+linewidth           tick                    medthick // (default: thin)
+gsize               tick                    vsmall // (default: tiny)
+
+* Tick label
+************
+anglestyle          vertical_tick           horizontal // text angle for y axes (default: vertical)
+gsize               tick_label              medsmall // (default: medsmall)
+gsize               tick_biglabel           medsmall // (default: medium)
+
+* Grids
+*******
+linewidth           major_grid              none // (default: medium)
+linewidth           minor_grid              none // (default: medium)
+yesno               draw_major__nl_hgrid    no
+yesno               draw_minor__nl_hgrid    no
+yesno               draw_majornl__nl_hgrid  no
+yesno               draw_minornl__nl_hgrid  no
+
+* Legend
+********
+clockdir            legend_position         4 // position with respect to plot region (default: 6)
+numstyle            legend_cols             1 // number of columns for the keys (default: 2)
+numstyle            legend_rows             0 // number of rows for the keys (default: 0)
+linewidth           legend                  none // (default: thin)
+margin              legend                  small // (default: small)
+gsize               legend_key_xsize        medsmall // (default: 13)
+gsize               legend_key_ysize        medsmall // (default: medsmall)
+gsize               key_label               medsmall // (default: medsmall)
+
+* Lines
+*******
+linewidth           p                       medthick // (default: medium)
+
+* Symbols
+*********
+symbol              p                       circle_hollow // (default: circle)
+symbolsize          p                       small // (default: medium)
+
+* Bar plots
+***********
+intensity           pbar                    inten80 // 
+intensity           bar                     inten80 // 
+intensity           area                    inten80 // 
+intensity           shade                   inten80 // 
+
+linewidth           pbar                    medthick // (default: thin)
+color               pbarline                white // (default: none)
+
+relsize             bar_gap                 0 // distance btw bars not in an over() group (default: 0pct)
+relsize             bar_groupgap            0 // distance btw bars in the first over() group (default: 67pct)
+relsize             bar_supgroupgap         100 // distance btw bars in the second over() group (default: 200pct)
+relsize             bar_outergap            0 // distance btw outermost bars and plotregion boundaries (default: 20pct)
+   
+* Histograms
+************
+intensity           histogram               inten80 //
+color               histogram_line          white // (default: none)
+linewidth           histogram               medthick // (default: medium)
+
+* Text
+******
+gsize               text                    medsmall // (default: medium)
+gsize               text_option             medsmall // (default: medsmall)
+gsize               body                    medsmall // (default: medsmall)
+gsize               small_body              medsmall // (default: small) 
+gsize               label                   medsmall // (default: medsmall)
+gsize               pbarlabel               medsmall // (default: small)
+
+linewidth           text_option             medthick // (default: thin)
+
+* Line stroke alignment
+***********************
+alignstroke         axisline                center // (default = inside)
+alignstroke         background              center // (default = inside)
+alignstroke         ci_area                 center // (default = inside)
+alignstroke         ci                      center // (default = inside)
+alignstroke         clegend                 center // (default = inside)
+alignstroke         dendrogram              center // (default = inside)
+alignstroke         dot_area                center // (default = inside)
+alignstroke         dot                     center // (default = inside)
+alignstroke         dotmark                 center // (default = inside)
+alignstroke         dots                    center // (default = inside)
+alignstroke         foreground              center // (default = inside)
+alignstroke         grid                    center // (default = inside)
+alignstroke         histogram               center // (default = inside)
+alignstroke         legend                  center // (default = inside)
+alignstroke         major_grid              center // (default = inside)
+alignstroke         map                     center // (default = center)
+alignstroke         matrixmark              center // (default = inside)
+alignstroke         matrix_plotregion       center // (default = center)
+alignstroke         mat_label_box           center // (default = center)
+alignstroke         minor_grid              center // (default = inside)
+alignstroke         minortick               center // (default = inside)
+alignstroke         pie                     center // (default = inside)
+alignstroke         p                       center // (default = inside)
+alignstroke         plotregion              center // (default = inside)
+alignstroke         refline                 center // (default = inside)
+alignstroke         cvcvline                center // (default = inside)
+alignstroke         cvlsline                center // (default = inside)
+alignstroke         cvseline                center // (default = inside)
+alignstroke         refmarker               center // (default = inside)
+alignstroke         reverse_big             center // (default = inside)
+alignstroke         sunflower               center // (default = inside)
+alignstroke         text_option             center // (default = inside)
+alignstroke         tick                    center // (default = inside)
+alignstroke         xyline                  center // (default = inside)
+alignstroke         zyx2                    center // (default = inside)
+alignstroke         hrule                   center // (default = inside)
+alignstroke         fp                      center // (default = inside)
+alignstroke         fpgrp                   center // (default = inside)
+alignstroke         fpall                   center // (default = inside)
+alignstroke         fphrule                 center // (default = inside)
+alignstroke         fpspacer                center // (default = inside)
+alignstroke         fpesrefline             center // (default = inside)
+alignstroke         fpnullrefline           center // (default = inside)
+alignstroke         p1                      center // (default = inside)
+alignstroke         p2                      center // (default = inside)
+alignstroke         p3                      center // (default = inside)
+alignstroke         p4                      center // (default = inside)
+alignstroke         p5                      center // (default = inside)
+alignstroke         p6                      center // (default = inside)
+alignstroke         p7                      center // (default = inside)
+alignstroke         p8                      center // (default = inside)
+alignstroke         p9                      center // (default = inside)
+alignstroke         p10                     center // (default = inside)
+alignstroke         p11                     center // (default = inside)
+alignstroke         p12                     center // (default = inside)
+alignstroke         p13                     center // (default = inside)
+alignstroke         p14                     center // (default = inside)
+alignstroke         p15                     center // (default = inside)
