@@ -1,1 +1,1 @@
-# Simple graph scheme for Stata
+# Simple graphical defaults for Stata plots
