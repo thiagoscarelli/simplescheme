@@ -1,2 +1,1 @@
-# Stata schemes
-Stata graphical schemes
+# Simple graph scheme for Stata
