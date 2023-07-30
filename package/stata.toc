@@ -1,4 +1,4 @@
 v 1.0.0
-d 'STATA SIMPLE SCHEME': Simple graphical parameters with focus on the data
+d 'SIMPLE SCHEME': Simple graphical parameters with focus on the data
 d
 d Author: Thiago Scarelli
