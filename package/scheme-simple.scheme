@@ -9,19 +9,19 @@ label "simple"
 graphsize           x                       5.5
 graphsize           y                       2.8
 
-* Colors (vibrand scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
+* Colors (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
 *****************************************************************************
-color               p                       "  0 119 187" // blue
+color               p                       simpleblue
 
-color               p1                      "  0 119 187" // blue
-color               p2                      "238, 19  51" // orange
-color               p3                      "  0 153 136" // teal
-color               p4                      "204  51  17" // red
-color               p5                      " 51 187 238" // cyan
-color               p6                      "170  51 119" // magenta
-color               p7                      "187 187 187" // grey
+color               p1                      simpleblue
+color               p2                      simpleorange
+color               p3                      simpleteal
+color               p4                      simplered
+color               p5                      simplecyan
+color               p6                      simplemagenta
+color               p7                      simplegrey
 
-color               histogram               "  0 119 187" // blue
+color               histogram               simpleblue
 
 * Background
 ************

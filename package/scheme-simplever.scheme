@@ -1,8 +1,0 @@
-
-#include simple
-
-label "simple vertical"
-
-* size
-graphsize x 2.75
-graphsize y 5.50

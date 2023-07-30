@@ -1,9 +1,0 @@
-
-#include simple
-
-label "simple stacked"
-
-* colors for dots and lines
-color p1 " 16 158 119" // less bright version of "  0 158 115"
-color p2 "213 106  21" // less bright version of "213  94   0"
-color p3 " 18 120 178" // less bright version of "  0 114 178"
