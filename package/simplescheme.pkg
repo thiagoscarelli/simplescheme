@@ -13,6 +13,7 @@ f scheme-diverging_5.scheme
 f scheme-diverging_6.scheme
 f scheme-diverging_7.scheme
 f scheme-diverging_8.scheme
+
 f color-brightblue.style
 f color-brightcyan.style
 f color-brightgray.style
@@ -20,13 +21,17 @@ f color-brightgreen.style
 f color-brightpuple.style
 f color-brightred.style
 f color-brightyellow.style
+
 f color-simpleblue.style
 f color-simplecyan.style
 f color-simplegray.style
+f color-simplelightgray.style
+f color-simpledarkgray.style
 f color-simplemagenta.style
 f color-simpleorange.style
 f color-simplered.style
 f color-simpleteal.style
+
 f color-vibrantblue.style
 f color-vibrantcyan.style
 f color-vibrantgray.style
