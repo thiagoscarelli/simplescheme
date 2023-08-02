@@ -1,7 +1,0 @@
-
-#include simple
-
-label "simple coefplot"
-
-gsize tick_label small
-gsize axis_title small
