@@ -1,4 +1,4 @@
 v 1.0.0
-d 'SIMPLE SCHEME': Simple graphical parameters with focus on the data
+d 'SIMPLE SCHEME': A set of parameters designed for making nice plots in Stata.
 d
 d Author: Thiago Scarelli
