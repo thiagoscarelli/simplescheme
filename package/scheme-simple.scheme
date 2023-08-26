@@ -1,4 +1,4 @@
-*! version 1.0.0 25jul2023
+*! version 1.0.0 26aug2023
 * Documentation available at: help scheme entries
 
 #include s2color
@@ -6,8 +6,8 @@ label "simple"
 
 * Figure size
 *************
-graphsize           x                       5.5
-graphsize           y                       2.8
+graphsize           x                       5
+graphsize           y                       3.6
 
 * Colors (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
 *****************************************************************************
@@ -44,12 +44,12 @@ yesno               adj_ymargins            yes // (default: no)
 
 * Box around plotregion
 ***********************
-linewidth           plotregion              medthick // (default: thin)
+linewidth           plotregion              thin // (default: thin)
 color               plotregion_line         black // (default: white)
 
 * Axis
 ******
-linewidth           axisline                medthick // (default: thin)
+linewidth           axisline                thin // (default: thin)
 linestyle           axis_withgrid           axisline // (default: thin)
 
 gsize               axis_title              medsmall // (default: medsmall)
@@ -65,7 +65,7 @@ axisstyle           bar_var                 horizontal_notick // (default: horiz
 * Ticks
 *******
 tickposition        axis_tick               outside // (default: outside)
-linewidth           tick                    medthick // (default: thin)
+linewidth           tick                    thin // (default: thin)
 gsize               tick                    vsmall // (default: tiny)
 
 * Tick label
@@ -100,7 +100,7 @@ linewidth           p                       medthick // (default: medium)
 
 * Symbols
 *********
-symbol              p                       circle_hollow // (default: circle)
+symbol              p                       circle // (default: circle)
 symbolsize          p                       small // (default: medium)
 
 * Bar plots
@@ -133,7 +133,7 @@ gsize               small_body              medsmall // (default: small)
 gsize               label                   medsmall // (default: medsmall)
 gsize               pbarlabel               medsmall // (default: small)
 
-linewidth           text_option             medthick // (default: thin)
+linewidth           text_option             thin // (default: thin)
 
 * Line stroke alignment
 ***********************
