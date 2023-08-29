@@ -35,7 +35,7 @@ color               plotregion              white
 * Margins
 *********
 margin              graph                   tiny // (default: medium)
-margin 		    plotregion              medsmall // (default: medsmall)
+margin 		        plotregion              medsmall // (default: medsmall)
 margin              twoway                  medsmall // (default: medsmall)
 margin              bargraph                medsmall // (default: bargraph)
 margin              hbargraph               medsmall // (default: bargraph)
@@ -55,8 +55,8 @@ linewidth           axisline                thin // (default: thin)
 linestyle           axis_withgrid           axisline // (default: thin)
 
 gsize               axis_title              medium // (default: medsmall)
-margin              axis_title              zero // around the axis title (default: zero)
-gsize               axis_title_gap          medium // between axis title and tick label (default: minuscule)
+margin              axis_title              medium // around the axis title (default: zero)
+gsize               axis_title_gap          zero // between axis title and tick label (default: minuscule)
 
 yesno               extend_axes_full_low    yes // extend axis lines to plot region (default: yes) or to smallest tick mark (no)
 yesno               extend_axes_full_high   yes // extend axis lines to plot region (default: yes) or to largest tick mark (no)
