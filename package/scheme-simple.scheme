@@ -105,11 +105,6 @@ symbolsize          p                       small // (default: medium)
 
 * Bar plots
 ***********
-intensity           pbar                    inten80 // 
-intensity           bar                     inten80 // 
-intensity           area                    inten80 // 
-intensity           shade                   inten80 // 
-
 linewidth           pbar                    medthick // (default: thin)
 color               pbarline                white // (default: none)
 
@@ -120,7 +115,6 @@ relsize             bar_outergap            0 // distance btw outermost bars and
    
 * Histograms
 ************
-intensity           histogram               inten80 //
 color               histogram_line          white // (default: none)
 linewidth           histogram               medthick // (default: medium)
 
