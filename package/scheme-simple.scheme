@@ -1,4 +1,4 @@
-*! version 1.0.0 26aug2023
+*! version 1.0.0 29aug2023
 * Documentation available at: help scheme entries
 
 #include s2color
@@ -20,7 +20,7 @@ color               p3                      simpleteal
 color               p4                      simplered
 color               p5                      simplecyan
 color               p6                      simplemagenta
-color               p7                      simplegray
+color               p7                      simplegrey
 
 color               histogram               simpleblue
 
@@ -35,7 +35,7 @@ color               plotregion              white
 * Margins
 *********
 margin              graph                   tiny // (default: medium)
-margin 		        plotregion              medsmall // (default: medsmall)
+margin 		    plotregion              medsmall // (default: medsmall)
 margin              twoway                  medsmall // (default: medsmall)
 margin              bargraph                medsmall // (default: bargraph)
 margin              hbargraph               medsmall // (default: bargraph)
@@ -54,8 +54,9 @@ color               plotregion_line         black // (default: white)
 linewidth           axisline                thin // (default: thin)
 linestyle           axis_withgrid           axisline // (default: thin)
 
-gsize               axis_title              medsmall // (default: medsmall)
-gsize               axis_title_gap          medsmall // space inside the axis text (default: minuscule)
+gsize               axis_title              medium // (default: medsmall)
+margin              axis_title              zero // around the axis title (default: zero)
+gsize               axis_title_gap          medium // between axis title and tick label (default: minuscule)
 
 yesno               extend_axes_full_low    yes // extend axis lines to plot region (default: yes) or to smallest tick mark (no)
 yesno               extend_axes_full_high   yes // extend axis lines to plot region (default: yes) or to largest tick mark (no)
