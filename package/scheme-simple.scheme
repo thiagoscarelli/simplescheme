@@ -7,7 +7,7 @@ label "simple"
 * Figure size
 *************
 graphsize           x                       5
-graphsize           y                       3.6
+graphsize           y                       3.4
 
 * Colors (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
 *****************************************************************************
@@ -20,7 +20,7 @@ color               p3                      simpleteal
 color               p4                      simplered
 color               p5                      simplecyan
 color               p6                      simplemagenta
-color               p7                      simplegrey
+color               p7                      simplegray
 
 color               histogram               simpleblue
 
@@ -34,8 +34,9 @@ color               plotregion              white
 
 * Margins
 *********
-margin              graph                   medium // (default: medium)
-margin              twoway                  medium // (default: medsmall)
+margin              graph                   tiny // (default: medium)
+margin 		        plotregion              medsmall // (default: medsmall)
+margin              twoway                  medsmall // (default: medsmall)
 margin              bargraph                medsmall // (default: bargraph)
 margin              hbargraph               medsmall // (default: bargraph)
 margin              combinegraph            medsmall // (default: medsmall)
