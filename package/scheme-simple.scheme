@@ -12,7 +12,7 @@ graphsize           y                       3.6
 * Colors (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
 *****************************************************************************
 color               p                       simpleblue
-intensity           p                       inten100
+intensity           p                       inten100 // (default: inten80)
 
 color               p1                      simpleblue
 color               p2                      simpleorange
