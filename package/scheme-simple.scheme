@@ -6,7 +6,7 @@ label "simple"
 
 * Figure size
 *************
-graphsize           x                       5
+graphsize           x                       5.5
 graphsize           y                       3.4
 
 * Colors (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
@@ -16,7 +16,7 @@ intensity           p                       inten100 // (default: inten80)
 
 color               p1                      simpleblue
 color               p2                      simpleorange
-color               p3                      simpleteal
+color               p3                      simplegreen
 color               p4                      simplered
 color               p5                      simplecyan
 color               p6                      simplemagenta
