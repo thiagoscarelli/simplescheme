@@ -6,8 +6,8 @@ label "simple"
 
 * Figure size
 *************
-graphsize           x                       5.5
-graphsize           y                       3.4
+graphsize           x                       5.75
+graphsize           y                       3.25
 
 * Colors (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
 *****************************************************************************
