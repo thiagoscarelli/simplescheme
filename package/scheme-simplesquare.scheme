@@ -4,5 +4,5 @@
 label "simple square"
 
 * size
-graphsize x 3.4
-graphsize y 3.4
+graphsize x 2.875
+graphsize y 2.875
