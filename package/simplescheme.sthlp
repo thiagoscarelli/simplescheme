@@ -1,6 +1,6 @@
 {smcl}
 {hi:help simplescheme}{...}
-{right:{browse "https://github.com/thiagoscarelli/simplescheme":simplescheme v1.0 (GitHub)}}
+{right:{browse "https://github.com/thiagoscarelli/simplescheme":simplescheme v0.2 (GitHub)}}
 
 {hline}
 
@@ -8,7 +8,7 @@
 
 {title:Package details}
 
-Version      : {bf:simplescheme} v1.0
+Version      : {bf:simplescheme} v0.2
 This release : 29 Jul 2023
 First release: 29 Jul 2023
 Repository   : {browse "https://github.com/thiagoscarelli/simplescheme":GitHub}
