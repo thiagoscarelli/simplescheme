@@ -54,7 +54,7 @@ color               plotregion_line         black // (default: white)
 linewidth           axisline                thin // (default: thin)
 linestyle           axis_withgrid           axisline // (default: thin)
 
-gsize               axis_title              medium // (default: medsmall)
+gsize               axis_title              medsmall // (default: medsmall)
 margin              axis_title              medium // around the axis title (default: zero)
 gsize               axis_title_gap          zero // between axis title and tick label (default: minuscule)
 
