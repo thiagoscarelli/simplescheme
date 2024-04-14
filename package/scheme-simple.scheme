@@ -4,30 +4,34 @@ label "simple"
 
 * Graph size
 ************
-graphsize           x                       5.75
-graphsize           y                       3.25
+
+graphsize           x                       5.5 // (default: 5.5)
+graphsize           y                       3.3 // (default: 4)
 
 * Colors for plot elements (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
 ***********************************************************************************************
-color               p                       simpleblue
+color               p                       simpleblue // (default: gs6)
 intensity           p                       inten100 // (default: inten80)
 
-color               p1                      simpleblue
-color               p2                      simpleorange
-color               p3                      simplegreen
-color               p4                      simplered
-color               p5                      simplecyan
-color               p6                      simplemagenta
-color               p7                      simplegray
+color               p1                      simpleblue // (default: navy)
+color               p2                      simpleorange // (default: maroon)
+color               p3                      simplegreen // (default: forest_green)
+color               p4                      simplered // (default: dkorange)
+color               p5                      simplecyan // (default: teal)
+color               p6                      simplemagenta // (default: cranberry)
+color               p7                      simplegray // (default: lavender)
 
 color               histogram               simpleblue
 
 * Background colors
 *******************
-color               background              white
-color               box                     white
-color               textbox                 white
-color               mat_label_box           white
+color                                       black // (default: black)
+color               background              white // (default: ltbluishgray)
+color               foreground              black // (default: black)
+
+color               box                     white // (default: bluishgray)
+color               textbox                 white // (default: bluishgray)
+color               mat_label_box           white // (default: bluishgray)
 color               plotregion              white
 
 * Margins
@@ -53,7 +57,7 @@ linewidth           axisline                thin // (default: thin)
 linestyle           axis_withgrid           axisline // (default: thin)
 
 margin              axis_title              zero // around the axis title (default: zero)
-gsize               axis_title_gap          minuscule // between axis title and tick label (default: minuscule)
+gsize               axis_title_gap          medium // between axis title and tick label (default: minuscule)
 
 yesno               extend_axes_full_low    yes // extend axis lines to plot region (default: yes) or to smallest tick mark (no)
 yesno               extend_axes_full_high   yes // extend axis lines to plot region (default: yes) or to largest tick mark (no)
@@ -76,10 +80,6 @@ anglestyle          vertical_tick           horizontal // text angle for y axes 
 *******
 linewidth           major_grid              none // (default: medium)
 linewidth           minor_grid              none // (default: medium)
-yesno               draw_major__nl_hgrid    no
-yesno               draw_minor__nl_hgrid    no
-yesno               draw_majornl__nl_hgrid  no
-yesno               draw_minornl__nl_hgrid  no
 
 * Legend
 ********
@@ -103,15 +103,15 @@ symbolsize          p                       small // (default: medium)
 
 * Text size
 ***********
-gsize               text                    medsmall // (default: medium)
-gsize               tick_biglabel           medsmall // (default: medium)
+gsize               text                    medlarge // (default: medium)
+gsize               tick_biglabel           medlarge // (default: medium)
 
-gsize               text_option             medsmall // (default: medsmall)
-gsize               body                    medsmall // (default: medsmall)
-gsize               label                   medsmall // (default: medsmall)
-gsize               key_label               medsmall // (default: medsmall)
-gsize               axis_title              medsmall // (default: medsmall)
-gsize               tick_label              medsmall // (default: medsmall)
+gsize               text_option             medium // (default: medsmall)
+gsize               body                    medium // (default: medsmall)
+gsize               label                   medium // (default: medsmall)
+gsize               key_label               medium // (default: medsmall)
+gsize               axis_title              medium // (default: medsmall)
+gsize               tick_label              medium // (default: medsmall)
 
 gsize               small_body              medsmall // (default: small) 
 gsize               pbarlabel               medsmall // (default: small)
