@@ -8,6 +8,19 @@ label "simple"
 graphsize           x                       5.75 // (default: 5.5)
 graphsize           y                       3.25 // (default: 4)
 
+* Text size
+***********
+gsize               text                    medium // (default: medium)
+gsize               tick_biglabel           medium // (default: medium)
+gsize               text_option             medium // (default: medsmall)
+gsize               body                    medium // (default: medsmall)
+gsize               label                   medium // (default: medsmall)
+gsize               key_label               medium // (default: medsmall)
+gsize               axis_title              medium // (default: medsmall)
+gsize               tick_label              medium // (default: medsmall)
+gsize               small_body              medium // (default: small) 
+gsize               pbarlabel               medium // (default: small)
+
 * Colors for plot elements (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
 ***********************************************************************************************
 color               p                       simpleblue // (default: gs6)
@@ -100,19 +113,6 @@ linewidth           text_option             thin // (default: thin)
 *********
 symbol              p                       circle // (default: circle)
 symbolsize          p                       small // (default: medium)
-
-* Text size
-***********
-gsize               text                    medium // (default: medium)
-gsize               tick_biglabel           medium // (default: medium)
-gsize               text_option             medium // (default: medsmall)
-gsize               body                    medium // (default: medsmall)
-gsize               label                   medium // (default: medsmall)
-gsize               key_label               medium // (default: medsmall)
-gsize               axis_title              medium // (default: medsmall)
-gsize               tick_label              medium // (default: medsmall)
-gsize               small_body              medium // (default: small) 
-gsize               pbarlabel               medium // (default: small)
 
 * Bar plots
 ***********
