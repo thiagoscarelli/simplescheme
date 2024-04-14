@@ -5,8 +5,8 @@ label "simple"
 * Graph size
 ************
 
-graphsize           x                       5.5 // (default: 5.5)
-graphsize           y                       3.3 // (default: 4)
+graphsize           x                       5.75 // (default: 5.5)
+graphsize           y                       3.25 // (default: 4)
 
 * Colors for plot elements (vibrant scheme from personal.sron.nl/~pault/data/colourschemes.pdf)
 ***********************************************************************************************
