@@ -2,7 +2,8 @@ v 0.2
 
 d Author: Thiago Scarelli
 
-f scheme-simple.scheme
+f scheme-simplemedium.scheme
+f scheme-simplelarge.scheme
 f scheme-simplesquare.scheme
 f scheme-simplevertical.scheme
 f simplescheme.sthlp
