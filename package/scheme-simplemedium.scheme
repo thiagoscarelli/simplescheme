@@ -103,18 +103,16 @@ symbolsize          p                       small // (default: medium)
 
 * Text size
 ***********
-gsize               text                    medlarge // (default: medium)
-gsize               tick_biglabel           medlarge // (default: medium)
-
+gsize               text                    medium // (default: medium)
+gsize               tick_biglabel           medium // (default: medium)
 gsize               text_option             medium // (default: medsmall)
 gsize               body                    medium // (default: medsmall)
 gsize               label                   medium // (default: medsmall)
 gsize               key_label               medium // (default: medsmall)
 gsize               axis_title              medium // (default: medsmall)
 gsize               tick_label              medium // (default: medsmall)
-
-gsize               small_body              medsmall // (default: small) 
-gsize               pbarlabel               medsmall // (default: small)
+gsize               small_body              medium // (default: small) 
+gsize               pbarlabel               medium // (default: small)
 
 * Bar plots
 ***********
